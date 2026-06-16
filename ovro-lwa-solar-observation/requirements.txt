@@ -3,4 +3,7 @@ botocore>=1.34
 h5py>=3.10
 matplotlib>=3.8
 numpy>=1.26
-
+astropy>=6.0
+sunpy>=6.0
+scipy>=1.11
+git+https://github.com/ovro-eovsa/lwa-solar-util.git

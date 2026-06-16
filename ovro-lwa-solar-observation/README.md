@@ -12,6 +12,9 @@ The notebook is intentionally written as a draft because the AWS S3 bucket and
 sample object key have not been created yet. Replace the placeholder bucket and
 sample-key values before executing the S3 cells end to end.
 
+Large local sample files can be placed in `data/` while developing or running
+the notebook. That directory is ignored by Git.
+
 ## Local Setup
 
 Install the lightweight tutorial dependencies:
@@ -26,4 +29,3 @@ conversion and plotting helpers:
 ```sh
 python -m pip install git+https://github.com/ovro-eovsa/lwa-solar-util.git
 ```
-
